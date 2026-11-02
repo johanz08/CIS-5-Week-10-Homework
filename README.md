@@ -4,7 +4,6 @@
 **Theme:** Change data through a function  
 **Due:** Monday night. This assignment is not due Sunday.
 
-
 ## Demo video (required)
 
 Paste a link to a short video of you running this assignment (tool + code + run).
@@ -12,8 +11,15 @@ Work without a working video link is incomplete.
 
 The video is half the grade. Show the run, then explain which variables each function changed and why.
 
-**Your demo:** _add your link here_
+**Your demo:** https://youtu.be/9Ux2K_o4AFo
 
+## Function explanations
+
+curve receives the array, size, and points, then adds the points to main's original scores.
+
+minMax reads the array and changes main's lo and hi through references.
+
+findScore receives the array, size, target, and a pointer, returns true or false, and stores the matching index through the pointer when it is not nullptr.
 
 ## What to build
 
@@ -37,7 +43,7 @@ Three small functions that work on one array of scores. Each function receives i
 
 ## Sample session
 
-```
+```text
 Before: 72 88 95 60 81
 Low: 60  High: 95
 After curve +5: 77 93 100 65 86
@@ -90,6 +96,7 @@ g++ -std=c++17 -o program main.cpp && ./program
 ```
 
 On Windows (Visual Studio), open `main.cpp` and use **Local Windows Debugger**.
+
 4. Record a short demo that shows your tool, your code, and a real run.
 5. Paste the video link in the **Demo video** section above.
 6. Submit your fork URL on Canvas.
